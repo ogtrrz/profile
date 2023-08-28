@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import "@fontsource/poppins/400.css";
 import { CacheProvider, EmotionCache } from "@emotion/react";
 import createEmotionCache from "@/styles/createEmotionCache";
@@ -50,6 +51,7 @@ function MyApp({
 				<ThemeProvider theme={theme}>
 					<CssBaseline />
 					{getLayout(<Component {...pageProps} />)}
+					<Analytics />
 				</ThemeProvider>
 			</CacheProvider>
 		</>
