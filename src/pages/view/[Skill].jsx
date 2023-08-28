@@ -87,7 +87,7 @@ const Skill = ({ skill }) => {
 
 			<Box sx={{ height: 10 }} />
 			<MyHeaderPrincipal imageURL={skill.image} label={skill.skill} />
-			<Box sx={{ height: 750 }} />
+			<Box sx={{ height: 860 }} />
 
 			<Box sx={{ mr: 3, pl: 3 }}>
 				<Typography variant='subtitle1' color='text'>

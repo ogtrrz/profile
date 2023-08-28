@@ -99,7 +99,7 @@ function Architecture() {
 
 			<Box sx={{ height: 10 }} />
 			<MyHeaderPrincipal imageURL={imageURL} label='Site Architecture' />
-			<Box sx={{ height: 750 }} />
+			<Box sx={{ height: 860 }} />
 
 			<Stack gap={{ sm: 1, md: 2 }} sx={{ mt: 6, mx: 6 }}>
 				<Typography variant='h4' gutterBottom>
