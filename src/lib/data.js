@@ -197,9 +197,9 @@ export const data = {
 				},
 				{
 					name: "Site Architecture.",
-					issuer: "OmarGutierrez.me",
+					issuer: "OmarGutierrez.net",
 					date: "3/21/2023",
-					urlCertification: "https://omargutierrez.me/Architecture",
+					urlCertification: "https://omargutierrez.net/Architecture",
 				},
 				{
 					name: "The most important all time, Mexican web app, falling flat :-(",
@@ -328,9 +328,9 @@ export const data = {
 			certifications: [
 				{
 					name: "Site Architecture.  100% Lighthouse",
-					issuer: "OmarGutierrez.me",
+					issuer: "OmarGutierrez.net",
 					date: "3/21/2023",
-					urlCertification: "https://omargutierrez.me/Architecture",
+					urlCertification: "https://omargutierrez.net/Architecture",
 				},
 			],
 			github: [
@@ -382,9 +382,9 @@ export const data = {
 			certifications: [
 				{
 					name: "Site Architecture. 100% Lighthouse",
-					issuer: "OmarGutierrez.me",
+					issuer: "OmarGutierrez.net",
 					date: "3/21/2023",
-					urlCertification: "https://omargutierrez.me/Architecture",
+					urlCertification: "https://omargutierrez.net/Architecture",
 				},
 			],
 			github: [
@@ -510,9 +510,9 @@ export const data = {
 				},
 				{
 					name: "Site Architecture. 100% Lighthouse",
-					issuer: "OmarGutierrez.me",
+					issuer: "OmarGutierrez.net",
 					date: "3/21/2023",
-					urlCertification: "https://omargutierrez.me/Architecture",
+					urlCertification: "https://omargutierrez.net/Architecture",
 				},
 				{
 					name: "Solving infinite, in computer science.",

@@ -6,7 +6,7 @@ const nextConfig = {
 	compress: true,
 	staticPageGenerationTimeout: 1000,
 	images: {
-		domains: ["omargutierrez.me", "localhost"],
+		domains: ["omargutierrez.net", "localhost"],
 	},
 	// Codelab: Modify content-type for traffic advice file.
 	async headers() {
