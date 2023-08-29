@@ -26,7 +26,6 @@ const sk = data;
 //TODO la proteccion de time
 //TODO como se redisean las imagens para ser mas responsiva explicar UX en aerchitectura alineacion significado de los colores proteccion de 10 envios de for en 1 hora y webp y el Sanitizers los big O(1) del stream para read y write
 
-
 const Skill = ({ skill }) => {
 	const router = useRouter();
 	return (
@@ -34,7 +33,7 @@ const Skill = ({ skill }) => {
 			<Head>
 				<title>{`Omar Gutierrez | ${skill.profile.substring(0, 48)}`}</title>
 				<meta name='robots' content='index, follow' />
-				{/* <meta http-equiv="refresh" content="3600"/> */}
+
 				<link
 					rel='canonical'
 					href={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
@@ -59,6 +58,24 @@ const Skill = ({ skill }) => {
 				/>
 				<meta
 					property='og:url'
+					content={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
+				/>
+
+				<meta
+					name='twitter:card'
+					content={`${process.env.NEXT_PUBLIC_URL}/principal.webp`}
+				/>
+				<meta name='twitter:title' content='Omar Gutierrez, Profile' />
+				<meta
+					name='twitter:description'
+					content={`Omar Gutierrez, ${PROFILE.substring(0, 159)}`}
+				/>
+				<meta
+					name='twitter:image'
+					content={`${process.env.NEXT_PUBLIC_URL}/principal.webp`}
+				/>
+				<meta
+					name='twitter:url'
 					content={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
 				/>
 			</Head>

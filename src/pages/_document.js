@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
 					<meta name='Referrer-Policy' content='origin-when-cross-origin' />
 					<meta httpEquiv='X-XSS-Protection' content='1; mode=block'/>
 					<meta name="referrer" content="no-referrer"/>
-					<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload"/>
+					<meta httpEquiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload"/>
 
 				</Head>
 

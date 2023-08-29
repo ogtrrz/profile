@@ -79,6 +79,23 @@ function Architecture() {
 					name='twitter:url'
 					content={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
 				/>
+				<meta
+					name='twitter:card'
+					content={`${process.env.NEXT_PUBLIC_URL}/principal.webp`}
+				/>
+				<meta name='twitter:title' content='Omar Gutierrez, Profile' />
+				<meta
+					name='twitter:description'
+					content={`Omar Gutierrez, ${PROFILE.substring(0, 159)}`}
+				/>
+				<meta
+					name='twitter:image'
+					content={`${process.env.NEXT_PUBLIC_URL}/principal.webp`}
+				/>
+				<meta
+					name='twitter:url'
+					content={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
+				/>
 			</Head>
 			<MyAppBar />
 			<Box sx={{ height: 75 }} />
