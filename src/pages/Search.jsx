@@ -96,24 +96,28 @@ const Search = ({ ret }) => {
 			</Breadcrumbs>
 
 			<Box sx={{ mt: 5, mr: 3, pl: 3 }}>
-				<Grid
-					container
-					alignItems='stretch'
-					spacing={{ xs: 2, sm: 3, md: 5 }}
-					columns={{ xs: 3, sm: 6, md: 9 }}>
-					{ret.map((skill) => {
-						return (
-							// <Grid xs={4} key={skill.skill}>
-							<Grid
-								xs={3}
-								item={true}
-								style={{ display: "flex" }}
-								key={skill.skill}>
-								<MediaCard skill={skill} />
-							</Grid>
-						);
-					})}
-				</Grid>
+				{ret.length === 0 ? (
+					<Typography variant='body1'>No documents found.</Typography>
+				) : (
+					<Grid
+						container
+						alignItems='stretch'
+						spacing={{ xs: 2, sm: 3, md: 5 }}
+						columns={{ xs: 3, sm: 6, md: 9 }}>
+						{ret.map((skill) => {
+							return (
+								// <Grid xs={4} key={skill.skill}>
+								<Grid
+									xs={3}
+									item={true}
+									style={{ display: "flex" }}
+									key={skill.skill}>
+									<MediaCard skill={skill} />
+								</Grid>
+							);
+						})}
+					</Grid>
+				)}
 			</Box>
 			<MyFooter />
 		</React.Fragment>

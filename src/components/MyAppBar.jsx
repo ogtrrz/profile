@@ -87,6 +87,9 @@ export default function SearchAppBar() {
 	// const searchRef = useRef(null);
 	const handleKeyup = async () => {
 		// console.log("search", search);
+		if (search.length < 3 ) {
+			return;
+		}
 		const encodedURL = encodeURIComponent(search);
 		setSearch("");
 		router.push(`/Search?search=${encodedURL}`);
