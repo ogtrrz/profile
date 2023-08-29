@@ -13,39 +13,28 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import HomeIcon from "@mui/icons-material/Home";
 import { profile } from "@/lib/profile";
 
-const PROFILE = profile;
-
-
 const PrivacyPolicy = () => {
+	const PROFILE = profile;
 	// console.log("privacy", privacyPolicy);
-  const router = useRouter();
+	const router = useRouter();
 	return (
 		<React.Fragment>
 			<Head>
 				<title>{`Omar Gutierrez | Privacy Policy`}</title>
 				<meta name='robots' content='index, follow' />
-				
+
 				<link
 					rel='canonical'
 					href={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
 				/>
-				<meta
-					name='description'
-					content={`Omar Gutierrez, Privacy Policy`}
-				/>
+				<meta name='description' content={`Omar Gutierrez, Privacy Policy`} />
 				<meta property='og:type' content='website' />
-				<meta
-					property='og:title'
-					content={`Omar Gutierrez, Privacy Policy`}
-				/>
+				<meta property='og:title' content={`Omar Gutierrez, Privacy Policy`} />
 				<meta
 					property='og:description'
 					content={`Omar Gutierrez, Privacy Policy`}
 				/>
-				<meta
-					property='og:image'
-					content={"/principal.webp"}
-				/>
+				<meta property='og:image' content={"/principal.webp"} />
 				<meta
 					property='og:url'
 					content={`${process.env.NEXT_PUBLIC_URL}${router.asPath}`}
@@ -83,7 +72,7 @@ const PrivacyPolicy = () => {
 
 				<Typography color='text'>{`Privacy Policy`}</Typography>
 			</Breadcrumbs>
-			<Stack sx={{ ml: 3, mt:4}}>
+			<Stack sx={{ ml: 3, mt: 4 }}>
 				<Typography variant='subtitle1'>Privacy Policy</Typography>
 				<Typography
 					variant='body1'
