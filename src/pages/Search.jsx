@@ -131,7 +131,7 @@ export async function getServerSideProps(context) {
 	// bfcache.
 	res.setHeader(
 		"Cache-Control",
-		"public, s-maxage=10, stale-while-revalidate=59"
+		"public, max-age=604800, stale-while-revalidate=86400"
 	);
 	// console.log("resolvedUrl", context.resolvedUrl);
 	// console.log("context.query", context.query);

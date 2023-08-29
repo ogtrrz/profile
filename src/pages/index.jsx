@@ -129,9 +129,13 @@ export default Home;
 export async function getServerSideProps(context) {
 	const { req, res } = context;
 	// bfcache.
+	// res.setHeader(
+	// 	"Cache-Control",
+	// 	"public, s-maxage=2880, stale-while-revalidate=3600"
+	// );
 	res.setHeader(
 		"Cache-Control",
-		"public, s-maxage=2880, stale-while-revalidate=59"
+		"public, max-age=604800, stale-while-revalidate=86400"
 	);
 	let data = sk;
 	// console.log("data ssr", data);
