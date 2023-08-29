@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
 					<meta name='X-Frame-Options' content='DENY' />
 					<meta
 						name='Content-Security-Policy'
-						content="default-src 'self'; image-src 'self'; script-src 'self' https://www.google-analytics.com; font-src 'self'"
+						content="default-src 'self'; image-src 'self'; script-src 'self' https://www.google-analytics.com; font-src 'self'; connect-src vitals.vercel-insights.com"
 					/>
 					<meta name='X-Content-Type-Options' content='nosniff' />
 					<meta
