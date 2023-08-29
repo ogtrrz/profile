@@ -224,7 +224,7 @@ const ContactForm = () => {
 						</FormHelperText>
 						{isEmailError ? (
 							<Alert severity='error'>
-								This is an error alert — check it out!
+								Please ensure your email or your telephones is correct without special characters. 
 							</Alert>
 						) : (
 							""
