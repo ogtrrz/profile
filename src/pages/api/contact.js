@@ -1,4 +1,5 @@
-import { createContact } from "../../lib/redis";
+// import { createContact } from "../../lib/redis";
+import { createContact } from "@/lib/ioredis";
 
 export default async function handler(req, res) {
 	// const forwarded = req.headers["x-forwarded-for"];

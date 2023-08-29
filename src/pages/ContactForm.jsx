@@ -74,9 +74,9 @@ const ContactForm = () => {
 
 		const formData = {
 			name: escape(name.trim()),
-			company: escape(name.trim()),
-			email: escape(name.trim()),
-			subject: escape(name.trim()),
+			company: escape(company.trim()),
+			email: escape(email.trim()),
+			subject: escape(subject.trim()),
 		};
 
 		// console.log("formData", JSON.stringify(formData));

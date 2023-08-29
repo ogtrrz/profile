@@ -17,14 +17,14 @@ import MediaCard from "@/components/MediaCard";
 import MyFooter from "@/components/MyFooter";
 // import styled from "@mui/system/styled";
 import HomeIcon from "@mui/icons-material/Home";
-import { searchSkills } from "../lib/redis";
+import { searchSkills } from "@/lib/ioredis";
 import { data } from "@/lib/data";
 import { profile } from "@/lib/profile";
 
 const sk = data;
 const PROFILE = profile;
 const Search = ({ ret }) => {
-	console.log(ret);
+	// console.log(ret);
 
 	const router = useRouter();
 
@@ -133,30 +133,18 @@ export async function getServerSideProps(context) {
 		"Cache-Control",
 		"public, max-age=604800, stale-while-revalidate=86400"
 	);
-	// console.log("resolvedUrl", context.resolvedUrl);
-	// console.log("context.query", context.query);
 	let tag = context.query.search;
-	// console.log("context.query.search", tag);
 	tag = tag.replaceAll(" ", "|");
-	// console.log("query2", tag);
 	const skills = await searchSkills(tag);
-	// console.log('skills',skills);
 
 	if (!skills) {
 		return {
 			notFound: true,
 		};
 	}
-	// console.log("props", props);
-	const values = JSON.parse(skills);
-	// console.log("total", values.total);
-	// console.log("documents", values.documents);
 	let ret = [];
-	values.documents.forEach((item) => {
-		// console.log("item", Object.values(item.value)[0]);
-		ret.push(
-			sk.skills.find((skill) => skill.skill === Object.values(item.value)[0])
-		);
+	skills.forEach((item) => {
+		ret.push(sk.skills.find((skill) => skill.skill === item));
 	});
 
 	return {
