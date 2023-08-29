@@ -22,6 +22,8 @@ import SocialShare from "@/components/SocialShare";
 
 import { data } from "@/lib/data";
 const sk = data;
+import { profile } from "@/lib/profile";
+const PROFILE = profile;
 
 //TODO la proteccion de time
 //TODO como se redisean las imagens para ser mas responsiva explicar UX en aerchitectura alineacion significado de los colores proteccion de 10 envios de for en 1 hora y webp y el Sanitizers los big O(1) del stream para read y write

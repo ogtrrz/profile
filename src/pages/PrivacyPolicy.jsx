@@ -11,6 +11,9 @@ import { useRouter } from "next/router";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import HomeIcon from "@mui/icons-material/Home";
+import { profile } from "@/lib/profile";
+
+const PROFILE = profile;
 
 
 const PrivacyPolicy = () => {
