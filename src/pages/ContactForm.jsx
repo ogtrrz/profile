@@ -90,6 +90,14 @@ const ContactForm = () => {
 		const result = await res.json();
 		// console.log(result); //
 
+		await fetch("/api/send", {
+			body: JSON.stringify(formData),
+			headers: {
+				"Content-Type": "application/json",
+			},
+			method: "POST",
+		});
+		
 		setName("");
 		setCompany("");
 		setEmail("");
