@@ -79,8 +79,6 @@ const ContactForm = () => {
 			subject: escape(subject.trim()),
 		};
 
-		// console.log("formData", JSON.stringify(formData));
-
 		const res = await fetch("/api/contact", {
 			body: JSON.stringify(formData),
 			headers: {

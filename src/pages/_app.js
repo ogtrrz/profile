@@ -1,14 +1,11 @@
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from "@vercel/analytics/react";
 import "@fontsource/poppins/400.css";
 import { CacheProvider, EmotionCache } from "@emotion/react";
 import createEmotionCache from "@/styles/createEmotionCache";
-// import { FC, useEffect } from "react";
 import Head from "next/head";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { theme } from "@/styles/theme";
-import Script from "next/script";
-// import { ReactNode } from "react";
-// import { NextPage } from "next";
+// import Script from "next/script";
 
 const clientSideEmotionCache = createEmotionCache();
 
@@ -21,7 +18,7 @@ function MyApp({
 
 	return (
 		<>
-			<Script
+			{/* <Script
 				strategy='afterInteractive'
 				src='https://www.googletagmanager.com/gtag/js?id=G-VNTMQYCYLR'
 			/>
@@ -38,7 +35,7 @@ function MyApp({
 					});
 					`,
 				}}
-			/>
+			/>  */}
 
 			<CacheProvider value={emotionCache}>
 				<Head>
@@ -51,7 +48,7 @@ function MyApp({
 				<ThemeProvider theme={theme}>
 					<CssBaseline />
 					{getLayout(<Component {...pageProps} />)}
-					<Analytics />
+					{/* <Analytics /> */}
 				</ThemeProvider>
 			</CacheProvider>
 		</>
