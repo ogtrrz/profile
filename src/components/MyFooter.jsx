@@ -12,7 +12,8 @@ import PolicyIcon from "@mui/icons-material/Policy";
 import ArchitectureIcon from "@mui/icons-material/Architecture";
 import ContactPageIcon from "@mui/icons-material/ContactPage";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
-import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import CookieIcon from "@mui/icons-material/Cookie";
 
 const MyFooter = () => {
 	const router = useRouter();
@@ -28,7 +29,7 @@ const MyFooter = () => {
 		if (param === "contactForm") {
 			return router.push("/ContactForm");
 		}
-		if (param === 'resume') {
+		if (param === "resume") {
 			return router.push("/OmarGutierrez-CV.pdf");
 		}
 		//window.open _blank resume without email info
@@ -84,7 +85,9 @@ const MyFooter = () => {
 							},
 						}}>
 						<PictureAsPdfIcon />
-						<Typography variant='body2'>Download Omar Gutierrez resume.</Typography>
+						<Typography variant='body2'>
+							Download Omar Gutierrez resume.
+						</Typography>
 						<ArrowForwardIcon />
 					</Stack>
 					<Stack
@@ -102,8 +105,13 @@ const MyFooter = () => {
 						<Typography variant='body2'>Contact Form.</Typography>
 						<ArrowForwardIcon />
 					</Stack>
-					
-					
+					<br />
+					<Stack direction='row' alignItems='center' gap={1}>
+						<CookieIcon />
+						<Typography variant='body2'>
+							This site does not use cookies
+						</Typography>
+					</Stack>
 				</Grid>
 				<Grid xs={5} item={true}>
 					<Stack
@@ -151,7 +159,7 @@ const MyFooter = () => {
 						<Typography variant='body2'>Privacy Policy.</Typography>
 						<ArrowForwardIcon />
 					</Stack>
-					<br/>
+					<br />
 					<Typography variant='body2'>© 2023 Omar Gutierrez.</Typography>
 				</Grid>
 			</Grid>
