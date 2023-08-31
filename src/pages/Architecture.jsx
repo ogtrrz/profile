@@ -344,7 +344,7 @@ function Architecture() {
 
 				<Typography variant='body1' color='primary'>
 					Color is a critical element in user experience (UX) design. The
-					primary color you‘ve chosen, represented by this text, can evoke
+					primary color chosen, represented by this text, can evoke
 					specific emotions and create a consistent visual identity for your
 					website or application.
 				</Typography>
