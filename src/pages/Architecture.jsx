@@ -355,28 +355,60 @@ function Architecture() {
 					style={{ whiteSpace: "pre-line" }}>
 					{`The color "#095D57" is a specific hexadecimal color code. Color significance can be somewhat subjective and context-dependent, but here's a general overview of how "#095D57" might be perceived:
 
-Deep Teal or Turquoise: "#095D57" appears to be a deep teal or turquoise color. In color psychology, this color is associated with various emotions and concepts:
-
-Calmness: Teal and turquoise are often seen as calming colors, reminiscent of the sea or tropical waters. They can evoke a sense of tranquility and relaxation.
-
-Balance: Teal is a blend of green and blue, representing a balance between the calmness of blue and the growth and vitality of green.
-
-Refreshing: This color can be associated with freshness and renewal, much like the feeling of a cool ocean breeze.
-
-Natural and Earthy: The color "#095D57" has a natural and earthy quality, making it suitable for nature-inspired themes or designs.
-
-Sophisticated: Deep teal shades can also convey a sense of sophistication and elegance when used in the right context.
-
-Professional: In some contexts, this color can be seen as professional and business-like, making it suitable for corporate or formal designs.`}
+Deep Teal or Turquoise: "#095D57" appears to be a deep teal or turquoise color. In color psychology, this color is associated with various emotions and concepts:`}
 				</Typography>
-
-				<Typography variant='body1' color='secondary'>
-					Meanwhile, the secondary color, represented by this text, can be used
-					to draw attention to important elements, such as calls to action or
-					alerts.
-				</Typography>
+				<div>
+					<ul>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Calmness:</strong> Teal and turquoise are often seen as
+								calming colors, reminiscent of the sea or tropical waters. They
+								can evoke a sense of tranquility and relaxation.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Balance:</strong> Teal is a blend of green and blue,
+								representing a balance between the calmness of blue and the
+								growth and vitality of green.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Refreshing:</strong> This color can be associated with
+								freshness and renewal, much like the feeling of a cool ocean
+								breeze.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Natural and Earthy:</strong> The color "#095D57" has a
+								natural and earthy quality, making it suitable for
+								nature-inspired themes or designs.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Sophisticated:</strong> Deep teal shades can also convey
+								a sense of sophistication and elegance when used in the right
+								context.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='primary'>
+								<strong>Professional:</strong> In some contexts, this color can
+								be seen as professional and business-like, making it suitable
+								for corporate or formal designs.
+							</Typography>
+						</li>
+					</ul>
+				</div>
 
 				<div>
+					<Typography variant='body1' color='secondary'>
+						Sentiments Associated with the Color{" "}
+						<span style={{ color: "#380232" }}>#380232</span>:
+					</Typography>
 					<ul>
 						<li>
 							<Typography variant='body1' color='secondary'>
@@ -421,7 +453,33 @@ Professional: In some contexts, this color can be seen as professional and busin
 						</li>
 					</ul>
 				</div>
-				
+
+				<Typography variant='body1'>
+					Consistency in spacing is another key aspect of UX design. Providing{" "}
+					<strong>blank space</strong> between elements helps improve
+					readability and guides users attention to important content.
+				</Typography>
+
+				<Typography variant='body1'>
+					In addition to color and spacing, using{" "}
+					<strong>call-to-action (CTA) elements</strong> strategically is
+					essential. Encouraging user interaction, like clicking a button with
+					an <ArrowForwardIcon style={{ color: "primary.main" }} />, can lead to
+					higher engagement and conversions.
+				</Typography>
+
+				<Typography variant='body1'>
+					The images are squares that adjust their appearance to show more
+					height or width when the screen size changes.
+				</Typography>
+
+				<Typography variant='body1'>
+					Lastly, to enhance website performance,{" "}
+					<strong>all site images are webp format</strong>. This format reduces
+					image file sizes, improving page load times and overall user
+					experience.
+				</Typography>
+				<br />
 				<Typography variant='h5' gutterBottom>
 					Conclusion: Efficiency Meets Excellence
 				</Typography>
