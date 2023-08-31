@@ -376,53 +376,52 @@ Professional: In some contexts, this color can be seen as professional and busin
 					alerts.
 				</Typography>
 
-				<Typography
-					variant='body1'
-					color='secondary'
-					style={{ whiteSpace: "pre-line" }}>
-					{`The color "#095D57" is a specific hexadecimal color code. Color significance can be somewhat subjective and context-dependent, but here's a general overview of how "#095D57" might be perceived:
-
-Deep Teal or Turquoise: "#095D57" appears to be a deep teal or turquoise color. In color psychology, this color is associated with various emotions and concepts:
-
-Calmness: Teal and turquoise are often seen as calming colors, reminiscent of the sea or tropical waters. They can evoke a sense of tranquility and relaxation.
-
-Balance: Teal is a blend of green and blue, representing a balance between the calmness of blue and the growth and vitality of green.
-
-Refreshing: This color can be associated with freshness and renewal, much like the feeling of a cool ocean breeze.
-
-Natural and Earthy: The color "#095D57" has a natural and earthy quality, making it suitable for nature-inspired themes or designs.
-
-Sophisticated: Deep teal shades can also convey a sense of sophistication and elegance when used in the right context.
-
-Professional: In some contexts, this color can be seen as professional and business-like, making it suitable for corporate or formal designs.`}
-				</Typography>
-
-				<Typography variant='body1'>
-					Consistency in spacing is another key aspect of UX design. Providing{" "}
-					<strong>blank space</strong> between elements helps improve
-					readability and guides users attention to important content.
-				</Typography>
-
-				<Typography variant='body1'>
-					In addition to color and spacing, using{" "}
-					<strong>call-to-action (CTA) elements</strong> strategically is
-					essential. Encouraging user interaction, like clicking a button with
-					an <ArrowForwardIcon style={{ color: "primary.main" }} />, can lead to
-					higher engagement and conversions.
-				</Typography>
-
-				<Typography variant='body1'>
-					The images are squares that adjust their appearance to show more
-					height or width when the screen size changes.
-				</Typography>
-
-				<Typography variant='body1'>
-					Lastly, to enhance website performance,{" "}
-					<strong>all site images are webp format</strong>. This format reduces
-					image file sizes, improving page load times and overall user
-					experience.
-				</Typography>
-				<br />
+				<div>
+					<ul>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Elegance:</strong> Dark purples are often associated
+								with elegance and luxury. They can be used in high-end branding
+								or fashion to convey a sense of sophistication.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Mystery:</strong> Dark colors like this can evoke a
+								sense of mystery and intrigue. They are often used in mystery
+								novels or movie posters to create an air of suspense.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Creativity:</strong> Purple, in general, is associated
+								with creativity and imagination. This dark purple could
+								represent a deep, introspective creativity.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Royalty:</strong> Historically, purple has been
+								associated with royalty and power. This shade might convey a
+								sense of regality or importance.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Drama:</strong> Dark purples can be dramatic and
+								intense. They can create a sense of depth and intensity in
+								design or art.
+							</Typography>
+						</li>
+						<li>
+							<Typography variant='body1' color='secondary'>
+								<strong>Sensitivity:</strong> Some people might associate dark
+								purples with emotional depth and sensitivity.
+							</Typography>
+						</li>
+					</ul>
+				</div>
+				
 				<Typography variant='h5' gutterBottom>
 					Conclusion: Efficiency Meets Excellence
 				</Typography>
