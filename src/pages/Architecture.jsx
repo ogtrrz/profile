@@ -382,7 +382,7 @@ Deep Teal or Turquoise: "#095D57" appears to be a deep teal or turquoise color. 
 						</li>
 						<li>
 							<Typography variant='body1' color='primary'>
-								<strong>Natural and Earthy:</strong> The color "#095D57" has a
+								<strong>Natural and Earthy:</strong> The color #095D57 has a
 								natural and earthy quality, making it suitable for
 								nature-inspired themes or designs.
 							</Typography>
