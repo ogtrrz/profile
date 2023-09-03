@@ -6,7 +6,7 @@ import createEmotionCache from "../styles/createEmotionCache";
 export default class MyDocument extends Document {
 	render() {
 		return (
-			<Html lang='es'>
+			<Html lang='en'>
 				<Head>
 					{this.props.emotionStyleTags}
 					<meta name='X-Frame-Options' content='DENY' />
