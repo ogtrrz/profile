@@ -1,7 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 import "@fontsource/poppins";
 import '@fontsource/gravitas-one';
-import { purple, red, blueGrey } from "@mui/material/colors";
+// import { purple, red, blueGrey } from "@mui/material/colors";
 
 // const poppins = Poppins({
 // 	weight: ["300", "400"],
