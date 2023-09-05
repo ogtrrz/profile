@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
 			<Html lang='en'>
 				<Head>
 					{this.props.emotionStyleTags}
+					<link rel="icon" href="/favicon.ico"></link>
 					<meta name='X-Frame-Options' content='DENY' />
 					<meta
 						name='Content-Security-Policy'
